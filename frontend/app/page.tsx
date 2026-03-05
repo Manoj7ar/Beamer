@@ -1,9 +1,9 @@
-'use client'
+﻿'use client'
 
 import Link from 'next/link'
 import Image from 'next/image'
 
-// ─── Palette ──────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Palette â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const C = {
   cream:   '#F5F0E8',
   white:   '#FFFFFF',
@@ -15,7 +15,7 @@ const C = {
   divider: 'rgba(0,0,0,0.06)',
 }
 
-// ─── Nav ──────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Nav â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function Nav() {
   return (
     <nav
@@ -47,7 +47,7 @@ function Nav() {
   )
 }
 
-// ─── Section 1: Hero ──────────────────────────────────────────────────────────
+// â”€â”€â”€ Section 1: Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function HeroSection() {
   return (
     <section
@@ -101,8 +101,8 @@ function HeroSection() {
           className="animate-slide-up-delay-2 mt-5 max-w-lg leading-relaxed"
           style={{ fontSize: '0.9375rem', color: C.muted }}
         >
-          Turn any idea into a full cinematic story film — AI-written scenes, Imagen visuals,
-          and voiceover narration — in under two minutes.
+          Turn any idea into a full cinematic story film â€” AI-written scenes, Imagen visuals,
+          and voiceover narration â€” in under two minutes.
         </p>
 
         {/* CTAs */}
@@ -170,12 +170,12 @@ function HeroSection() {
   )
 }
 
-// ─── Section 2: Technology & Mission ─────────────────────────────────────────
+// â”€â”€â”€ Section 2: Technology & Mission â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const TECH_STACK = [
   {
     name: 'Gemini 2.0 Flash',
     role: 'AI Director',
-    description: 'Writes the full cinematic script, crafts scene narration, and generates detailed image prompts — all from your single sentence.',
+    description: 'Writes the full cinematic script, crafts scene narration, and generates detailed image prompts â€” all from your single sentence.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -208,7 +208,7 @@ const TECH_STACK = [
   {
     name: 'Cloud Run + ADK',
     role: 'Always On',
-    description: 'Serverless Google Cloud infrastructure. Beamer orchestrates a multi-agent pipeline — Director, Illustrator, Narrator — reliably at scale.',
+    description: 'Serverless Google Cloud infrastructure. Beamer orchestrates a multi-agent pipeline â€” Director, Illustrator, Narrator â€” reliably at scale.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
         <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" strokeLinecap="round" strokeLinejoin="round"/>
@@ -238,7 +238,7 @@ function TechnologySection() {
           </h2>
           <p className="mt-6 leading-relaxed max-w-xl" style={{ fontSize: '1.0625rem', color: C.sub }}>
             For a century, visual storytelling meant a crew, a budget, and years of work.
-            Beamer changes that. Using Google&apos;s most advanced AI — Gemini, Imagen, and Cloud TTS —
+            Beamer changes that. Using Google&apos;s most advanced AI â€” Gemini, Imagen, and Cloud TTS â€”
             we turn a single sentence into a full cinematic experience in under two minutes.
             No camera. No crew. Just your idea.
           </p>
@@ -276,7 +276,7 @@ function TechnologySection() {
                 <div>
                   <div className="flex items-center gap-2 mb-1 flex-wrap">
                     <h3 className="font-bold text-base" style={{ color: C.black }}>{tech.name}</h3>
-                    <span className="text-xs font-medium" style={{ color: C.muted }}>— {tech.role}</span>
+                    <span className="text-xs font-medium" style={{ color: C.muted }}>â€” {tech.role}</span>
                   </div>
                   <p className="text-sm leading-relaxed" style={{ color: C.sub }}>{tech.description}</p>
                 </div>
@@ -302,7 +302,7 @@ function TechnologySection() {
             Built with the{' '}
             <span style={{ color: C.white, fontWeight: 600 }}>Google Agent Development Kit (ADK)</span>
             , Beamer orchestrates a multi-agent pipeline: a Director agent writes the script,
-            an Illustrator agent generates the visuals, and TTS narrates every scene —
+            an Illustrator agent generates the visuals, and TTS narrates every scene â€”
             all on{' '}
             <span style={{ color: C.white, fontWeight: 600 }}>Google Cloud Run</span>.
           </p>
@@ -312,13 +312,13 @@ function TechnologySection() {
   )
 }
 
-// ─── Section 3: How It Works ──────────────────────────────────────────────────
+// â”€â”€â”€ Section 3: How It Works â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const STEPS = [
   {
     number: '01',
     title: 'Write Your Vision',
     description: 'Type anything. "A WWII epic about D-Day." "A sci-fi love story on Mars." "A documentary about deep-sea creatures." One sentence is all it takes.',
-    detail: 'Add an optional genre — Documentary, Drama, Action, Sci-Fi, Fantasy, or Horror — to shape the visual style.',
+    detail: 'Add an optional genre â€” Documentary, Drama, Action, Sci-Fi, Fantasy, or Horror â€” to shape the visual style.',
   },
   {
     number: '02',
@@ -330,7 +330,7 @@ const STEPS = [
     number: '03',
     title: 'Watch Your Story',
     description: 'A cinematic movie player presents your film scene by scene. Navigate manually, auto-play with timed transitions, or listen to the narration.',
-    detail: 'Every movie you create is unique — the same prompt generates a different film every time.',
+    detail: 'Every movie you create is unique â€” the same prompt generates a different film every time.',
   },
 ]
 
@@ -420,7 +420,7 @@ function HowItWorksSection() {
   )
 }
 
-// ─── Section 4: Footer ────────────────────────────────────────────────────────
+// â”€â”€â”€ Section 4: Footer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function Footer() {
   return (
     <footer
@@ -452,7 +452,7 @@ function Footer() {
             <Link href="/create" className="text-sm font-semibold transition-colors" style={{ color: C.black }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.opacity = '0.6')}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.opacity = '1')}>
-              Create a Film →
+              Create a Film â†’
             </Link>
           </div>
 
@@ -471,16 +471,16 @@ function Footer() {
           style={{ borderTop: `1px solid ${C.border}` }}
         >
           <p className="text-xs" style={{ color: C.muted }}>
-            Built for the <span style={{ color: C.sub }}>Gemini Live Agent Challenge</span> — Creative Storyteller Track · March 2026
+            Built for the <span style={{ color: C.sub }}>Gemini Live Agent Challenge</span> â€” Creative Storyteller Track Â· March 2026
           </p>
-          <p className="text-xs" style={{ color: 'rgba(0,0,0,0.25)' }}>© 2026 Beamer. Powered by Google Cloud &amp; Gemini.</p>
+          <p className="text-xs" style={{ color: 'rgba(0,0,0,0.25)' }}>Contributor: manoj7ar · © 2026 Beamer. Powered by Google Cloud &amp; Gemini.</p>
         </div>
       </div>
     </footer>
   )
 }
 
-// ─── Page ─────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Page â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export default function Home() {
   return (
     <div style={{ backgroundColor: C.cream, minHeight: '100vh' }}>
@@ -492,3 +492,4 @@ export default function Home() {
     </div>
   )
 }
+
