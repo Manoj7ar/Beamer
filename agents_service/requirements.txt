@@ -1,0 +1,20 @@
+# Google ADK Framework
+google-adk>=0.1.0
+
+# Google Gen AI SDK (required for `from google.genai import types`)
+google-genai>=1.0.0
+
+# Google Cloud AI Platform + Vertex AI (includes vertexai subpackage for Imagen)
+google-cloud-aiplatform>=1.74.0
+
+# Google Cloud Services
+google-cloud-storage>=2.10.0
+google-cloud-texttospeech>=2.29.0
+
+# FastAPI & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
