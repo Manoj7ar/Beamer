@@ -16,7 +16,6 @@ It generates:
 
 - `frontend/` - Next.js app (prompt input, loading UX, playback, scene controls)
 - `agents_service/` - FastAPI + ADK orchestration and media tools
-- `submission/creative-storyteller/` - submission docs and judging materials
 
 ## Current Product Flow
 
